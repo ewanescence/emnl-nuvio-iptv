@@ -1,0 +1,12 @@
+[
+  {
+    "id": "bfmtv",
+    "name": "BFM TV",
+    "logo": "https://i.imgur.com/YJCcczD.png",
+    "country": "FR",
+    "iptvOrgId": "BFMTV.fr",
+    "officialDomains": ["bfmtv.com", "nextradiotv.com"],
+    "referer": "https://www.bfmtv.com/",
+    "fallbackUrl": "https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8"
+  }
+]
