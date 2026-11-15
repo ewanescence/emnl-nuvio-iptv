@@ -1,0 +1,8 @@
+services:
+  addon:
+    build: .
+    restart: unless-stopped
+    ports:
+      # Zoraxy redirige HTTPS vers ce port. Si Zoraxy tourne sur l'hôte,
+      # préférer "127.0.0.1:7000:7000" pour ne pas exposer le port en clair.
+      - "7000:7000"
